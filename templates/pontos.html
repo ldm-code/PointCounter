@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" >
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/pontos.css') }}">
+          <title>PointCounter</title>
+</head>
+<body>
+          <div style="text-align: center;">
+                    <form action="/aumentart1" method="POST">
+                            <h1>Point Counter</h1>
+
+                           <input type="number" step="1"  min="0" name="time1"  placeholder="pontos time 1" required><br><br>
+                           <input type="number" step="1" min="0" name="time2" placeholder="pontos time 2" required><br><br>
+                           <input type="submit" value="finalizar jogo" class="sub"><br>
+                    </form>
+
+          </div>
+          
+</body>
+</html>
