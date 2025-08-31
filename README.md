@@ -29,8 +29,11 @@ O objetivo é praticar desenvolvimento web com Python e Flask, além de criar um
 - PointCounter/
 - ├── static/ ← Pasta com arquivos estáticos:
 - │ └── css/ ← CSS usado no projeto
-- ├── templates/ ← Templates HTML renderizados com Jinja2
-- │
+- ├── templates/ ← Templates HTML 
+- │      ├── empate.html(aparece caso o jogo empate em pontos)
+- │      ├── pontos.html(interface onde os pontos sao digitados)
+- │      ├── time1.html(aparece caso o time 1 tenha mais pontos que o time 2)
+- │      └── time2.html(aparece caso o time 2 faca mais pontos que o time 1)
 - ├── manage.py ← Arquivo principal com a lógica do Flask (rotas, lógica de contagem)
 - └── README.md ← Documentação do projeto (este arquivo)
   
