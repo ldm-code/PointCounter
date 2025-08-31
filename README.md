@@ -30,7 +30,7 @@ O objetivo é praticar desenvolvimento web com Python e Flask, além de criar um
 - ├── static/ ← Pasta com arquivos estáticos:
 - │ └── css/ ← CSS usado no projeto
 - ├── templates/ ← Templates HTML renderizados com Jinja2
-- │ └── ... ← (exemplos: página principal, formularios, etc.)
+- │
 - ├── manage.py ← Arquivo principal com a lógica do Flask (rotas, lógica de contagem)
 - └── README.md ← Documentação do projeto (este arquivo)
   
